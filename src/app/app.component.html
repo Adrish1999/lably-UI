@@ -1,16 +1,16 @@
-<header>
-  <div class="container">
-    <a routerLink="/">Lably-UI</a>
-    <nav>
-      <ul>
-        <li><a routerLink="/home">Home</a></li>
-        <li><a routerLink="/admins">Admins</a></li>
-        <li><a routerLink="/labs">Labs</a></li>
-        <li><a routerLink="/tests">Tests</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<nav>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <label class="logo">Lably-UI</label>
+  <ul>
+    <li><a routerLink="/home">Home</a></li>
+    <li><a routerLink="/admins">Admins</a></li>
+    <li><a routerLink="/labs">Labs</a></li>
+    <li><a routerLink="/tests">Tests</a></li>
+  </ul>
+</nav>
 
 <div class="container">
   <router-outlet></router-outlet>
